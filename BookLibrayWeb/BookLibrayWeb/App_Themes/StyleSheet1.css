@@ -1,0 +1,112 @@
+﻿body, p, a, h, h1, h2, h3, td, div, form
+{
+    font-family: Sans-Serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+
+.webPage
+{
+     background-color: #F0F0F0;
+}
+
+
+.header
+{
+    width: 100%;
+    height: 54px;
+    background-color: #546F8A;
+    text-align: center;
+}
+
+.companyMessage 
+{
+    padding-top:0px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: White;
+    font-weight: 700;
+    font-size :32px;
+    text-align: center;
+}
+
+
+
+.navigation
+{
+    clear:both;
+	font-weight:bold;
+    height:30px;
+    width:100%;	
+    margin:auto;
+    padding-top:10px;
+    background-color: white;
+    color: black;
+    float: left;
+    height:30px;
+
+}
+
+.content
+{
+    padding:10px;
+	width:95%;
+	margin-left:auto;
+    margin-right:auto;
+    background-color: #F0F0F0;
+    font-family: Sans-Serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B3B3B3;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer
+{
+    clear:both;
+	width:100%;
+	background: #98BAE0;
+    font-size :small;
+    text-align: center;
+}
+
+
+.gridviewWebPage {
+        border-width: 0px;
+    font-family: Sans-Serif;
+        background-color: #fff;
+        font-size: 12px;
+        border-color: #B3B3B3;
+        }
+.gridviewWebPage th {
+        background: #fff;
+        color:#000000;
+        outline-color:#fff;
+        padding: 5px;
+        font-family: Sans-Serif;
+      
+        border-color: #B3B3B3;
+        border-style: solid;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top-width: 1px;
+        border-bottom-width: 3px;
+}
+.gridviewWebPage td  {
+        
+        color: #000000;
+        font-family: Sans-Serif;
+        padding: 10px;
+        text-align: left;
+        border-color: #B3B3B3;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        font-size: 12px;
+}
+
+

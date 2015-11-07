@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BookLibrayWeb.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title></title>
+     <link href="App_Themes/StyleSheet1.css" rel="stylesheet"
+        type="text/css" />
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</head>
+<body class="webPage">
+    <form id="form1" runat="server">
+      <asp:ScriptManager ID="ScriptManager1" AsyncPostBackTimeout="360000" runat="server">
+    </asp:ScriptManager>
+    <div class="header">
+        <asp:Label ID="Label1" CssClass="companyMessage" runat="server" Text="BOOK LIBRARY" ></asp:Label>
+    </div>
+         <div class="navigation">
+             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Font-Names="sans-serif" Font-Size="14px" ForeColor="#333333">
+                 <Items>
+                     <asp:MenuItem Text="SEARCH |" Value="Search" NavigateUrl="~/Search.aspx"></asp:MenuItem>
+                     <asp:MenuItem Text="AUTHORS |" Value="Authors" NavigateUrl="~/Admin/Authors.aspx">
+                     </asp:MenuItem>
+                     <asp:MenuItem NavigateUrl="~/Admin/Categories.aspx" Text="CATEGORIES |" Value="Categories"></asp:MenuItem>
+                     <asp:MenuItem NavigateUrl="~/Admin/Books.aspx" Text="BOOKS |" Value="Books"></asp:MenuItem>
+                 </Items>
+             </asp:Menu>
+            </div>
+    <div class="content">
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         <div class="footer">
+             <asp:Label ID="Label2" runat="server"></asp:Label>
+          </div>
+    </form>
+</body>
+</html>
